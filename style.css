@@ -1,21 +1,35 @@
-body{
+* {
     box-sizing: border-box;
-    padding-left: 25%;
-    padding-right: 25%;
-    padding-top: 10%;
-    padding-bottom: 10%;
 }
 
-img{
+body {
+    margin: 0;
+    padding: 10vh 25vw;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    display: block;
+}
+
+img {
+    display: block;
+    width: 100%;
     height: 300px;
+    object-fit: cover;
+    margin-bottom: 15px;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-}
-
-button{
+button {
+    display: block;
+    width: 100%;
     height: 40px;
-    background: linear-gradient(126deg,green, yellow)
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(126deg, green, yellow);
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
 }
